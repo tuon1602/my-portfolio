@@ -26,7 +26,7 @@ const ChangeLanguage = () => {
   const handleChangeLanguage = (value: string) => {
     startTransition(() => {
       setCookie("language", value);
-      router.refresh();
+      window.location.reload()
     });
   };
   const currentLanguage = getCookie("language");
@@ -41,8 +41,8 @@ const ChangeLanguage = () => {
           <SelectValue placeholder={t("Select-Language")} />
         </SelectTrigger>
         <SelectContent aria-disabled={isPending}>
-          <SelectItem value="en">{t("en")}</SelectItem>
-          <SelectItem value="vn">{t("vn")}</SelectItem>
+          <SelectItem value="en"><span className="fi fi-gb"></span> {t("en")}</SelectItem>
+          <SelectItem value="vn"><span className="fi fi-vn"></span> {t("vn")}</SelectItem>
         </SelectContent>
       </Select>
     </div>

@@ -5,6 +5,15 @@
     "demo-button": "Đây là button từ thư viện Shadcn/ui",
     "en": "Tiếng anh",
     "vn": "Tiếng Việt",
-    "about-page": "Trang giới thiệu"
+    "about-page": "Trang giới thiệu",
+    "about-content": "Là một lập trình viên front-end fresher, trách nhiệm chính của tôi xoay quanh việc tạo ra giao diện người dùng (UI) hấp dẫn mắt và chức năng cho các trang web và ứng dụng web bằng cách sử dụng các thư viện của ngôn ngữ Javascript, Typescript",
+    "about-title": "Xin chào, tôi tên Tuấn",
+    "cv-title":"Xem CV"
+  },
+  "Welcome": {
+    "01": "Welcome",
+    "02": "to",
+    "03": "my",
+    "04": "portfolio"
   }
 }

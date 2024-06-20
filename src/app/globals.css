@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -62,4 +63,10 @@
   .heading {
     @apply text-5xl text-balance font-extrabold tracking-tight;
   }
+}
+
+.background-grid {
+  background-image: linear-gradient(#000000 1.5px, transparent 1.5px, transparent calc(100% - 1.5px), #000000 calc(100% - 1.5px)), linear-gradient(90deg, #000000 1.5px, transparent 1.5px, transparent calc(100% - 1.5px), #000000 calc(100% - 1.5px));
+  background-size: 5% 10%;
+  border: 1.5px solid #000000;
 }

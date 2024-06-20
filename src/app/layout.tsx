@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter,Poppins } from "next/font/google";
 import "./globals.css";
 import ReactQueryProvider from "@/providers/ReactQueryProvider";
 import Scroll from "@/components/ScrollToTop";
@@ -8,8 +8,11 @@ import Navbar from "@/components/Navbar";
 import { Toaster } from "@/components/ui/sonner";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
+import "./theme/text-theme.css"
 
 const inter = Inter({ subsets: ["latin"] });
+const poppin = Poppins({ subsets:["latin"],weight:["400","500"] });
 
 export const metadata: Metadata = {
   title: "Tuon's Next app boilerplate",
@@ -25,12 +28,12 @@ export default async function RootLayout({
   const messages = await getMessages();
   return (
     <html lang={locale}>
-      <body className={inter.className} suppressHydrationWarning>
+      <body className={poppin.className} suppressHydrationWarning>
         <Scroll />
         <NextIntlClientProvider messages={messages}>
           <ReactQueryProvider>
             <ThemeProvider enableSystem defaultTheme="system" attribute="class">
-              <main>
+              <main className="py-10">
                 <Navbar />
                 {children}
               </main>

@@ -5,6 +5,15 @@
       "demo-button" : "This button is from Shadcn/Ui",
       "en":"English",
       "vn":"Vietnamese",
-      "about-page":"About page"
+      "about-content":"As a fresher front-end developer, my primary responsibility revolves around creating visually appealing and functional user interfaces (UIs) for websites and web applications by using Javascript, Typescript frameworks",
+      "about-title":"Hi, I'm Tuan",
+      "cv-title":"Preview CV"
+    
+    },
+    "Welcome":{
+      "01":"Welcome",
+      "02":"to",
+      "03":"my",
+      "04":"portfolio"
     }
   }
