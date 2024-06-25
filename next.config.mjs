@@ -12,6 +12,14 @@ const nextConfig = {
   //     static: 300,
   //   },
   // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
 };
 
 export default withNextIntl(nextConfig);

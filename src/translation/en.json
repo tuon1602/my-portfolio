@@ -1,19 +1,36 @@
 {
-    "Index": {
-      "title": "Hello world!",
-      "Select-Language":"Choose your language",
-      "demo-button" : "This button is from Shadcn/Ui",
-      "en":"English",
-      "vn":"Vietnamese",
-      "about-content":"As a fresher front-end developer, my primary responsibility revolves around creating visually appealing and functional user interfaces (UIs) for websites and web applications by using Javascript, Typescript frameworks",
-      "about-title":"Hi, I'm Tuan",
-      "cv-title":"Preview CV"
-    
-    },
-    "Welcome":{
-      "01":"Welcome",
-      "02":"to",
-      "03":"my",
-      "04":"portfolio"
-    }
+  "Index": {
+    "title": "Hello world!",
+    "Select-Language": "Choose your language",
+    "demo-button": "This button is from Shadcn/Ui",
+    "en": "English",
+    "vn": "Vietnamese",
+    "about-content": "As a fresher front-end developer, my primary responsibility revolves around creating visually appealing and functional user interfaces (UIs) for websites and web applications by using Javascript, Typescript frameworks",
+    "about-title": "Hi 👋, I'm Tuan",
+    "cv-title": "Preview CV",
+    "status-carousel-notdone": "On-going",
+    "status-carousel-done": "Finished",
+    "warning-carousel": "This is my personal project, it would have some issues",
+    "status-text": "Status",
+    "warning-text": "Warning",
+    "email-required": "Please enter your email address",
+    "message-required": "Please enter your message"
+  },
+  "Welcome": {
+    "01": "Welcome",
+    "02": "to",
+    "03": "my",
+    "04": "portfolio"
+  },
+  "Donation":{
+    "title":"Your support helps me greatly in the present and the future",
+    "vn-qr-title":"Vietnamese Banking QR",
+    "paypal-qr-description":"Might update later"
+  },
+  "Contact":{
+    "title":"Contact me",
+    "email-description-input":"This should be your contact email",
+    "message-input":"Message",
+    "message-placeholder":"Leave your message here, such as title, contact detail, etc..."
   }
+}

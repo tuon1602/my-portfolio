@@ -9,9 +9,8 @@ function ReactQueryProvider({ children }: React.PropsWithChildren) {
     new QueryClient({
       defaultOptions: {
         queries: {
-          refetchOnWindowFocus: true,
-          staleTime: 6 * 1000,
-          refetchInterval: 6 * 1000,
+          staleTime: 10 * 1000,
+          refetchInterval: 10 * 1000,
         },
       },
     }),

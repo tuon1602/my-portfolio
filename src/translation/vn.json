@@ -7,13 +7,31 @@
     "vn": "Tiếng Việt",
     "about-page": "Trang giới thiệu",
     "about-content": "Là một lập trình viên front-end fresher, trách nhiệm chính của tôi xoay quanh việc tạo ra giao diện người dùng (UI) hấp dẫn mắt và chức năng cho các trang web và ứng dụng web bằng cách sử dụng các thư viện của ngôn ngữ Javascript, Typescript",
-    "about-title": "Xin chào, tôi tên Tuấn",
-    "cv-title":"Xem CV"
+    "about-title": "Xin chào 👋, tôi tên Tuấn",
+    "cv-title": "Xem CV",
+    "status-carousel-notdone": "Đang tiến hành",
+    "status-carousel-done": "Đã hoàn thành",
+    "warning-carousel": "Đây là project cá nhân của tôi, có thể sẽ có một số vấn đề nhất định",
+    "status-text": "Trạng thái",
+    "warning-text": "Cảnh báo",
+    "email-required": "Email không được để trống",
+    "message-required": "Lời nhắn không được để trống"
   },
   "Welcome": {
     "01": "Welcome",
     "02": "to",
     "03": "my",
     "04": "portfolio"
+  },
+  "Donation": {
+    "title": "Sự giúp đỡ của các bạn sẽ giúp ích rất nhiều cho mình trong tương lai cũng như hiện tại",
+    "vn-qr-title": "Quét QR",
+    "paypal-qr-description": "Mình sẽ update sau"
+  },
+  "Contact": {
+    "title": "Liên hệ",
+    "email-description-input": "Sử dụng email liên lạc của bạn",
+    "message-input": "Lời nhắn",
+    "message-placeholder": "Để lại lời nhắn, chẳng hạn như lời mời, thông tin hợp tác, ..."
   }
 }

@@ -25,7 +25,7 @@ export default async function Home() {
     <>
       {" "}
       <main className="container space-y-10 pt-10">
-        <TypewriterEffect className="text-6xl" words={myWords} />
+        <TypewriterEffect className="text-2xl md:text-5xl lg:text-6xl" words={myWords} />
         <BentoGrids />
       </main>
     </>

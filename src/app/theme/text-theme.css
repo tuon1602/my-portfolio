@@ -12,7 +12,13 @@
   .heading-3 {
     @apply text-2xl xl:text-3xl font-semibold tracking-tight;
   }
+  .heading-4 {
+    @apply text-xl xl:text-2xl font-semibold tracking-tight;
+  }
   .paragraph {
     @apply leading-7 font-normal tracking-normal mt-4
+  }
+  .paragraph-mobile{
+    @apply leading-7 font-normal tracking-normal mt-4 text-sm
   }
 }
