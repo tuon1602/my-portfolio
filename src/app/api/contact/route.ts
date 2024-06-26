@@ -18,10 +18,9 @@ export async function POST(req: NextRequest) {
     },
   });
   const info = {
-    from: myEmail,
-    subject: "Nodemailer from portfolio",
+    from: "Portfolio alert",
+    subject: "Thư này được nhận từ portfolio tuon1602.online",
     to: myEmail,
-    replyTo: senderEmail,
     html: `<p>You have received a new message from your portfolio contact form.</p>
     <p><strong>Sender Email:</strong> ${senderEmail}</p>
     <p><strong>Message:</strong></p>
