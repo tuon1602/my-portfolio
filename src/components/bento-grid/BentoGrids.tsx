@@ -42,7 +42,7 @@ const BentoGrids = async () => {
         </div>
         <HoverEffect classname="col-span-12 md:col-span-6 xl:col-span-2 xl:row-span-3 rounded-2xl bg-[#FFDF6F]">
           <Social
-            url="https://drive.google.com/file/d/1fDGSFjW2gVx8FXXbjKFZhNa70vZuD3dT/view?usp=sharing"
+            url="https://drive.google.com/file/d/1OVqMlRI5Fy9t629ZpyR9EViAPSzvFc43/view?usp=sharing"
             title={t("cv-title")}
             image={CVIcon.src}
           />
